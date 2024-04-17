@@ -1,0 +1,8 @@
+module DemoIdlModule {
+  @topic
+  struct DemoTopic1 {
+    @key long id;
+    long counter;
+    string text;
+  };
+};
